@@ -1,0 +1,99 @@
+.heading{
+    margin-top: 0;
+    text-decoration: underline;
+}
+.cart-section{
+    padding: 0 60px;
+}
+.single-product-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 945px;
+    margin: 0 auto;
+}
+.cart-header{
+    font-weight: 600;
+}
+.single-product-cart img{
+    width: 50px;
+    height: auto;
+    border-radius: 10%;
+}
+.single-cart{
+    padding: 5px 15px;
+    background-color: #EEEEEE;
+    margin: 5px;
+    border-radius: 5px;
+}
+.quantity-button{
+    display: flex;
+    text-align: center;
+    padding: 5px 8px;
+}
+.quantity-button button{
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: #EEEEEE;
+}
+.quantity-button button:active{
+    background-color: #FFD369;
+}
+.quantity-button p{
+    margin: 0 5px;
+}
+.subtotal{
+    text-align: right;
+}
+.subtotal h2{
+    letter-spacing: 2.5px;
+}
+.clear-chaeckout{
+    text-align: center;
+    padding: 20px 0;
+}
+.clear{
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+}
+.checkout{
+    margin-left: 0.5rem;
+    padding: 10px 20px;
+    background-color: #FFD369;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 2px solid #FFD369;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.checkout:hover{
+    background-color: #f1b528;
+}
+.clear:hover{
+    background-color: red;
+    color: white;
+}
+.delete-cart{
+    color: red;
+    width: 50px;
+    cursor: pointer;
+}
+.delete-cart:hover{
+    color: rgb(244, 116, 116);
+}
+.empty-cart-h1{
+    position: relative;
+    top: 100px;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.empty-cart{
+    text-align: center;
+}

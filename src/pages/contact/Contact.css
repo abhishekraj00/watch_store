@@ -1,0 +1,46 @@
+.main-contact{
+    position: relative;
+}
+.contact-section{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+}
+.contact-section input, .contact-section textarea{
+    position: relative;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contact-section textarea{
+    height: 150px;
+    resize: vertical;
+}
+.contact-section p{
+    margin: 0 0 5px 0;
+    font-size: 0.7rem;
+    color: red;
+}
+.contact-section button{
+    width: 100%;
+    padding: 10px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    transition: 0.3s;
+    background-color:#ffc848;
+    font-weight: 600;
+    font-size: 1.125rem;
+    cursor: pointer;
+    border: none;
+}
+.contact-section button:hover{
+    box-shadow: 4px 4px #393E46;
+}
+.send-msg{
+    text-align: center;
+}

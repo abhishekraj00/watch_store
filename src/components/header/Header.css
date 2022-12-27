@@ -1,0 +1,57 @@
+.kart-logo{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.logo{
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    letter-spacing: 1.7px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: black;
+}
+li:hover{
+    color: #be8e1d;
+}
+.header{
+    
+    background-color: #EEEEEE;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.header-section{
+    padding: 10px 80px;
+}
+.kart{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.kart div{
+    position: absolute;
+    background-color: #FFD369;
+    color: black;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -12px;
+    right: -15px;
+    border-radius: 100%;
+}
