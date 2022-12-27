@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 .hero-section{
     height: 100vh;
-    background-image: url("../../../images/hero-image.png");
+    background-image: url("../../../images/hero-image.jpg");
     position: relative;
     background-position: center;
     background-size: cover;
 }
 .hero-text{
     position:absolute;
-    left: 50%;
+    left: 20%;
     top: 150px;
     transform: translateX(-50%);
     color: #EEEEEE;
@@ -35,4 +35,8 @@
   }
   .hero-button:hover{
     transform: translateY(-5px);
+  }
+
+  .discover{
+    color: #FFD369;
   }

@@ -6,10 +6,11 @@ const Hero = () => {
         <div className='hero-section'>
             <div className='hero-text'>
                 <h1>It's TIME to</h1>
-                <NavLink to="/collections">
-                  <button type='button'   className='hero-button'>Discover</button>
-                </NavLink>   
+                <h2 className='discover'>discover</h2>
                 <h2>Your TIME</h2>
+                <NavLink to="/collections">
+                  <button type='button'   className='hero-button'>Shop Now</button>
+                </NavLink> 
             </div>
         </div>  
 
